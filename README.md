@@ -1,6 +1,6 @@
 # egui_zhcn_fonts
 
-Loads simplified chinese fonts to egui, currently works for windows and macos.
+Loads simplified chinese fonts to egui, currently works for windows/macos/linux.
 
 ## Installation
 
@@ -32,6 +32,12 @@ impl App {
 }
 ```
 
+## Compatibility egui versions
+
+| egui_zhcn_fonts | Egui |
+| --------------- | ---- |
+| 0.1             | 0.31 |
+
 ## Supported Platforms
 
 ### macOS
@@ -41,6 +47,10 @@ impl App {
 ### Windows
 
 - Loads "MSYH"
+
+### linux
+
+- Loads "wqy-microhei" and "SourceHanSansCN"
 
 ## Contributing
 

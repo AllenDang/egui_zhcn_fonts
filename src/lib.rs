@@ -1,6 +1,6 @@
 use egui::{
-    epaint::text::{FontInsert, InsertFontFamily},
     FontData,
+    epaint::text::{FontInsert, InsertFontFamily},
 };
 
 pub fn add_sys_ui_fonts(cc: &egui::Context) {
@@ -9,6 +9,9 @@ pub fn add_sys_ui_fonts(cc: &egui::Context) {
 
     #[cfg(target_os = "windows")]
     let fonts = ["MSYH"];
+
+    #[cfg(target_os = "linux")]
+    let fonts = ["wqy-microhei", "SourceHanSansCN"];
 
     for (i, font) in fonts.iter().enumerate() {
         if let Some(f) = findfont::find(font) {
