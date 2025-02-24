@@ -1,0 +1,17 @@
+[package]
+name = "egui_zhcn_fonts"
+version = "0.1.0"
+edition = "2024"
+description = "load system zhcn fonts automatically for egui"
+categories = ["gui"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/AllenDang/egui_zhcn_fonts"
+repository = "https://github.com/AllenDang/egui_zhcn_fonts"
+keywords = ["chinese fonts", "egui"]
+exclude = ["/.github", ".gitignore"]
+rust-version = "1.85.0"
+
+[dependencies]
+egui = "0.31.0"
+findfont = "0.1.1"
