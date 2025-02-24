@@ -1,6 +1,6 @@
 [package]
 name = "egui_zhcn_fonts"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "load system zhcn fonts automatically for egui"
 categories = ["gui"]
